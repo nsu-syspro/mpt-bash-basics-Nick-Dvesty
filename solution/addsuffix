@@ -1,0 +1,4 @@
+#!/bin/bash
+input=$(cat)
+reversed=$(echo "$input" | tac)
+echo "$reversed"
